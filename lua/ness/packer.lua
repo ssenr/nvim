@@ -78,7 +78,6 @@ return require('packer').startup(function(use)
   }
 
   -- Project
-  -- Lua
   use {
       "ahmedkhalf/project.nvim",
       config = function()
@@ -90,4 +89,7 @@ return require('packer').startup(function(use)
           }
       end
   }
+  
+  -- Vimtex
+  use("lervag/vimtex")
 end)

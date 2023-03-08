@@ -105,4 +105,7 @@ return require('packer').startup(function(use)
       tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
 
+  -- Lazy Loader
+  use "lewis6991/impatient.nvim"
+
 end)
